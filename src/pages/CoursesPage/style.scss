@@ -1,0 +1,77 @@
+.CoursesPage {
+  margin-top: 5rem;
+
+  .ant-layout-content {
+    padding: 0 0 10rem 10rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4.25rem;
+  }
+
+  .ant-card {
+    width: 21.125rem;
+    border: 1px solid #000;
+    border-radius: 0;
+    padding: 1.625rem 1.5rem;
+
+    .ant-card-head,
+    .ant-card-body {
+      border: none;
+      padding: 0;
+    }
+  }
+
+  .ant-collapse {
+    border: none;
+    background: none;
+
+    & > .ant-collapse-item > .ant-collapse-header {
+      flex-direction: row-reverse;
+      align-items: center;
+    }
+
+    .ant-collapse-item {
+      border: none;
+    }
+
+    .ant-collapse-content {
+      background: none;
+      border: none;
+    }
+  }
+}
+
+.CoursePage {
+  height: 80vh;
+  overflow: hidden;
+
+  .ant-layout-sider {
+    background-color: #fff;
+    padding: 2.75rem 0.75rem;
+    overflow-y: auto;
+  }
+
+  .ant-layout-content {
+    background-color: #fff;
+    width: 100%;
+    padding: 0;
+    margin-left: 0.625rem;
+  }
+
+  h2 {
+    font-size: 1.25rem;
+    font-weight: 400;
+  }
+
+  p {
+    font-size: 1.125rem;
+  }
+
+  .ant-divider {
+    background-color: #000;
+  }
+
+  .completed {
+    color: rgba(0, 255, 10, 1);
+  }
+}

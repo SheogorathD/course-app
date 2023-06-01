@@ -1,0 +1,42 @@
+@import "antd/dist/reset.css";
+
+body,
+.ant-layout,
+.ant-layout-header,
+.ant-layout .ant-layout-sider {
+  background-color: #f2e6e6;
+  font-size: 1.125rem;
+  line-height: 1.375rem;
+  font-weight: 400;
+  font-family: "Inter", sans-serif;
+}
+
+a {
+  color: #000000;
+  text-decoration: none;
+
+  &:hover {
+    color: rgba(0, 0, 0, 0.5);
+  }
+}
+
+.ant-form-item-label {
+  font-size: 0.75rem;
+
+  label {
+    color: rgba(0, 0, 0, 0.6);
+  }
+}
+
+.ant-input {
+  border: 1px solid #000000;
+  border-radius: 10px;
+}
+
+.ant-form-item {
+  margin-bottom: 0.625rem;
+}
+.ant-btn {
+  width: 100%;
+  border-radius: 1rem;
+}

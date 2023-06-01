@@ -1,0 +1,37 @@
+.ProfilePage {
+  &__title {
+    font-size: 1.125rem;
+    font-weight: 400;
+  }
+
+  &__course-progress {
+    width: 10.375rem;
+  }
+
+  .ant-card {
+    width: 39rem;
+    border: 1px solid #000;
+    border-radius: 0;
+    padding: 1.625rem 1.25rem;
+
+    .ant-card-head,
+    .ant-card-body {
+      border: none;
+      padding: 0;
+    }
+
+    .ant-card-body {
+      display: flex;
+      justify-content: space-between;
+
+      &:before,
+      &:after {
+        display: none;
+      }
+    }
+  }
+
+  .ant-progress .ant-progress-bg {
+    background-color: rgba(0, 0, 0, 1);
+  }
+}

@@ -1,0 +1,18 @@
+.AddCourse {
+  padding: 2.75rem 1.625rem;
+  width: 52rem;
+  background-color: rgba(255, 255, 255, 1);
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  translate: -50% -50%;
+
+  h2 {
+    margin-bottom: 4.8125rem;
+  }
+
+  .ant-btn {
+    width: 10rem;
+    border-radius: 1rem;
+  }
+}
